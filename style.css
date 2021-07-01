@@ -1,0 +1,59 @@
+/* ROBOT.GIF from Giphy - https://giphy.com/gifs/robot-cinema-4d-eyedesyn-3o7abtn7DuREEpsyWY */
+
+html {
+  box-sizing: border-box;
+}
+body {
+  margin:0;
+  background: #white;
+}
+
+
+.container {
+  height: 100vh;
+  width: 100vw;
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center; 
+  background: url(https://cdn.dribbble.com/users/4435100/screenshots/15114878/composition_1.gif);
+  background-size: inherit;
+  background-position: left center;
+  background-repeat: no-repeat;
+}
+
+button{
+  position:fixed; left:80px; top:100px
+    cursor: pointer;
+    outline: none;
+    width: 400px;
+    height: 50px;
+    font-family: Consolas, Monaco, monospace;
+    font-size: 20px;
+    color: white;
+    background: rgb(151, 151, 255);
+    border: none;
+    border-radius: 5px;
+    box-shadow: 2px 2px 20px 10px rgb(0 0 0 / 20%);
+
+}
+
+@-webkit-keyframes typing { from { width: 0; } }
+@-webkit-keyframes blink-caret { 50% { border-color: transparent; } }
+
+h1 { 
+	font: bold 150% Consolas, Monaco, monospace;
+	border-right: .1em white;
+  color:white;
+  background: rgb(151, 151, 255);
+	width: 16.5em; 
+	width: 76ch;
+	margin: 2em 1em;
+	white-space: nowrap;
+	overflow: hidden;
+	-webkit-animation: typing 7s steps(76, end),
+	           blink-caret .5s step-end infinite alternate;
+}
+
+
+}
